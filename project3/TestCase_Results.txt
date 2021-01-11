@@ -1,0 +1,6 @@
+xv6-null-pages: 
+  Test 1-9: passed
+
+xv6-threads: 
+  Test 1-8: passed
+  

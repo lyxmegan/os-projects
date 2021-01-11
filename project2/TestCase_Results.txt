@@ -1,0 +1,6 @@
+Wish: 
+  Test 1-22: passed
+
+xv6-system-call: 
+  Test1: passed
+  Test2: passed

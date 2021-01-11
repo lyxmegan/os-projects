@@ -1,0 +1,33 @@
+Test 1: 
+XV6_TEST_OUTPUT : kmalloc  and kmfree good.
+
+Test 2: 
+XV6_TEST_OUTPUT : mmap good
+XV6_TEST_OUTPUT : Ret of memcmp 0
+XV6_TEST_OUTPUT : mmap() has correctly cleared the newly mapped anonymous memory region
+XV6_TEST_OUTPUT : munmap good
+
+Test 3: 
+XV6_TEST_OUTPUT : mmap good
+XV6_TEST_OUTPUT : Strlen Before modification: 0
+XV6_TEST_OUTPUT : str = 012345
+XV6_TEST_OUTPUT : Strlen After modification: 6
+XV6_TEST_OUTPUT : munmap good
+
+Test 4: 
+repeat the following line 100 times: 
+XV6_TEST_OUTPUT : str = 012345
+
+Test 5: 
+XV6_TEST_OUTPUT : rem1 = 0 rem2 = 0 rem3 = 0
+XV6_TEST_OUTPUT : mmap good --> address returned is page aligned
+XV6_TEST_OUTPUT : munmap good
+
+Test 6: 
+Repeat the following line 100 times: 
+XV6_TEST_OUTPUT : strlen(r) = 2000
+
+Test 7: 
+XV6_TEST_OUTPUT : mmap good
+XV6_TEST_OUTPUT : strlen(r) = 8191
+XV6_TEST_OUTPUT : munmap good

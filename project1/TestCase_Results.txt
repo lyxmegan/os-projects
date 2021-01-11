@@ -1,0 +1,44 @@
+Reverse: 
+   Test1 -passed
+   Test2 -passed
+   Test3 -passed
+   Test4 -passed
+   Test5 -passed
+   Test6 -passed
+   Test7 -passed
+
+wcat: 
+   Test1 -passed
+   Test2 -passed
+   Test3 -passed
+   Test4 -passed
+   Test5 -passed
+   Test6 -passed
+   Test7 -passed
+
+wgrep: 
+   Test1 -passed
+   Test2 -passed
+   Test3 -passed
+   Test4 -passed
+   Test5 -passed
+   Test6 -passed
+   Test7 -passed
+
+wunzip: 
+   Test1 -passed
+   Test2 -passed
+   Test3 -passed
+   Test4 -passed
+   Test5 -passed
+   Test6 -passed
+
+wzip: 
+   Test1 -passed
+   Test2 -passed
+   Test3 -passed
+   Test4 -passed
+   Test5 -passed
+   Test6 -passed
+
+   

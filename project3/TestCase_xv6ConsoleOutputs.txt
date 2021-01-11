@@ -1,0 +1,54 @@
+xv6-null-pages: 
+Test 1: 
+XV6_TEST_OUTPUT 1
+Test 2: 
+XV6_TEST_OUTPUT: this should print
+pid 4 test_2: trap 14 err 4 on cpu 0 eip 0x1021 addr 0x0--kill proc
+Test 3: 
+XV6_TEST_OUTPUT: Return value of mprotect with len 0: -1
+XV6_TEST_OUTPUT: Return value of mprotect with len -1: -1
+XV6_TEST_OUTPUT: Return value of mprotect with unaligned Page Address: -1
+Test 4: 
+XV6_TEST_OUTPUT: Return value of munprotect with len 0: -1
+XV6_TEST_OUTPUT: Return value of munprotect with len -1: -1
+XV6_TEST_OUTPUT: Return value of munprotect with unaligned Page Address: -1
+Test 5: 
+XV6_TEST_OUTPUT: Return value of mprotect with len 1: 0
+XV6_TEST_OUTPUT: Return value of mprotect with len 2: 0
+TEST 6: 
+XV6_TEST_OUTPUT: Return value of munprotect with len 1: 0
+XV6_TEST_OUTPUT: Return value of munprotect with len 2: 0
+Test 7: 
+XV6_TEST_OUTPUT: Return value of mprotect on Page where MAIN is mapped: 0
+pid 4 test_7: trap 14 err 7 on cpu 0 eip 0x103a addr 0x1000--kill proc
+Test 8: 
+XV6_TEST_OUTPUT: Return value of mprotect on memory 0x1000: 0
+XV6_TEST_OUTPUT: Inside child process
+pid 7 test_8: trap 14 err 7 on cpu 0 eip 0x104b addr 0x1000--kill proc
+Test 9: 
+XV6_TEST_OUTPUT: Return value of mprotect : 0
+XV6_TEST_OUTPUT: Return value of munprotect : 0
+XV6_TEST_OUTPUT: Written to 0x1000
+
+xv6-threads Console Outputs: 
+Test 1: 
+XV6_TEST_OUTPUT : global = 12345 i = 314159
+Test 2: 
+XV6_TEST_OUTPUT : Return value of clone system call: -1
+Test 3: 
+XV6_TEST_OUTPUT : Return value of join system call: -1
+Test 4: 
+XV6_TEST_OUTPUT : Correct PIDs returned by clone() and join()
+Test 5: 
+XV6_TEST_OUTPUT : Correct PIDs returned by thread_create and thread_join
+Test 6: 
+XV6_TEST_OUTPUT : i before threadfunc = 0
+XV6_TEST_OUTPUT : i after threadfunc = 31415
+Test 7: 
+XV6_TEST_OUTPUT : i before threadfunc = 0
+XV6_TEST_OUTPUT : Inside threadfunc
+XV6_TEST_OUTPUT : Lock Acquired inside threadfunc
+XV6_TEST_OUTPUT : Lock Released inside threadfunc
+XV6_TEST_OUTPUT : i after threadfunc = 31415
+Test 8: 
+XV6_TEST_OUTPUT 0
